@@ -13,7 +13,7 @@ def trainedyolo():
         '--epochs', '100',
         '--data', 'data/plates.yaml',
         '--weights', 'yolov5s.pt',
-        '--device', 'cuda:0',  # Use 'cpu' or 'cuda:0' as needed
+        '--device', 'cuda:0',
         '--cache'
     ]
 

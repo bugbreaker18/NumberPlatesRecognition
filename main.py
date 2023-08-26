@@ -191,7 +191,7 @@ walk_through_dir(input_folder)
 print()
 walk_through_dir(output_folder)
 
-
+# TRY YOLOV8 instead of YOLOV5
 print("Input folder exists:", input_folder.exists())
 print("Output folder exists:", output_folder.exists())
 
