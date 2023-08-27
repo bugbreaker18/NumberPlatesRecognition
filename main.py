@@ -21,7 +21,7 @@ from numba import cuda
 from timeit import default_timer as timer
 import trainyolo
 import torch
-
+import cv2
 import matplotlib
 matplotlib.use('Agg')
 
@@ -31,6 +31,20 @@ from matplotlib import patches as mpatches
 
 
 #print("COOL")
+# import cv2
+
+# # Load an image from file
+# image_path = 'Dataset1.jpg'  # Replace with the actual path of your image file
+# image = cv2.imread(image_path)
+
+# # Check if the image was loaded successfully
+# if image is not None:
+#     # Display the image
+#     cv2.imshow('Image', image)
+#     cv2.waitKey(0)  # Wait for a key press to close the window
+#     cv2.destroyAllWindows()  # Close all OpenCV windows
+# else:
+#     print("Failed to load the image.")
 
 dataset = {
             "file":[],
